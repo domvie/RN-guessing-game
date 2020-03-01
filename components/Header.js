@@ -7,7 +7,7 @@ import Colors from '../constants/colors';
 const Header = props => {
     return(
         <View style={styles.header}>
-            <FontAwesome name="calendar" size={25} style={{ color: 'black' }} />
+            <FontAwesome name="question" size={25} style={{ color: 'black' }} />
             <Text style={styles.headerTitle}>
                 {props.title}
             </Text>
